@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="67" passed="58" failed="5" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T14:41:01 IST" name="Automation Suites" finished-at="2023-08-10T14:41:01 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Automation Suites -->
+  <suite started-at="2023-08-10T14:40:57 IST" name="Home Loan" finished-at="2023-08-10T14:41:00 IST" duration-ms="3133">
+    <groups>
+      <group name="Sanity">
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@47caedad]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test2()[pri:2, instance:testNG.DemoTestng@47caedad]" name="test2" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test3()[pri:3, instance:testNG.DemoTestng@47caedad]" name="test3" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@7eecb5b8]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test2()[pri:2, instance:testNG.DemoTestng@7eecb5b8]" name="test2" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test3()[pri:3, instance:testNG.DemoTestng@7eecb5b8]" name="test3" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@5276d6ee]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test2()[pri:2, instance:testNG.DemoTestng@5276d6ee]" name="test2" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test3()[pri:3, instance:testNG.DemoTestng@5276d6ee]" name="test3" class="testNG.DemoTestng"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@47caedad]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test4()[pri:4, instance:testNG.DemoTestng@47caedad]" name="test4" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test5()[pri:5, instance:testNG.DemoTestng@47caedad]" name="test5" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@7eecb5b8]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test4()[pri:4, instance:testNG.DemoTestng@7eecb5b8]" name="test4" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" name="test5" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@5276d6ee]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test4()[pri:4, instance:testNG.DemoTestng@5276d6ee]" name="test4" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" name="test5" class="testNG.DemoTestng"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CarLoan.homeTest3()[pri:0, instance:testNG.CarLoan@69504ae9]" name="homeTest3" class="testNG.CarLoan"/>
+        <method signature="PersonalLoan.testloan1()[pri:0, instance:testNG.PersonalLoan@7139992f]" name="testloan1" class="testNG.PersonalLoan"/>
+        <method signature="CarLoan.homeTest3()[pri:0, instance:testNG.CarLoan@57db2b13]" name="homeTest3" class="testNG.CarLoan"/>
+        <method signature="PersonalLoan.testloan1()[pri:0, instance:testNG.PersonalLoan@126253fd]" name="testloan1" class="testNG.PersonalLoan"/>
+        <method signature="CarLoan.homeTest3()[pri:0, instance:testNG.CarLoan@1807f5a7]" name="homeTest3" class="testNG.CarLoan"/>
+        <method signature="PersonalLoan.testloan1()[pri:0, instance:testNG.PersonalLoan@71687585]" name="testloan1" class="testNG.PersonalLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-10T14:40:57 IST" name="chrome" finished-at="2023-08-10T14:40:58 IST" duration-ms="1038">
+      <class name="testNG.DemoTestng">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeTest" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test1" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:2, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test2" finished-at="2023-08-10T14:40:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:3, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test3" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test4" finished-at="2023-08-10T14:40:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test5" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test5" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test5" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test5" finished-at="2023-08-10T14:40:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="test5" finished-at="2023-08-10T14:40:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="beforeMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@47caedad]" started-at="2023-08-10T14:40:57 IST" name="afterMethod" finished-at="2023-08-10T14:40:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.DemoTestng -->
+      <class name="testNG.CarLoan">
+        <test-method signature="JCBTest2()[pri:0, instance:testNG.CarLoan@69504ae9]" started-at="2023-08-10T14:40:57 IST" name="JCBTest2" finished-at="2023-08-10T14:40:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JCBTest2 -->
+        <test-method signature="carTest1()[pri:0, instance:testNG.CarLoan@69504ae9]" started-at="2023-08-10T14:40:57 IST" name="carTest1" finished-at="2023-08-10T14:40:58 IST" duration-ms="1017" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:360)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTest1 -->
+        <test-method signature="homeTest3()[pri:0, instance:testNG.CarLoan@69504ae9]" started-at="2023-08-10T14:40:58 IST" name="homeTest3" finished-at="2023-08-10T14:40:58 IST" depends-on-methods="testNG.CarLoan.carTest1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@69504ae9 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@69504ae9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@69504ae9 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@69504ae9]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest3 -->
+      </class> <!-- testNG.CarLoan -->
+      <class name="testNG.PersonalLoan">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.PersonalLoan@7139992f]" started-at="2023-08-10T14:40:57 IST" name="browserLaunch" finished-at="2023-08-10T14:40:57 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testloan1()[pri:0, instance:testNG.PersonalLoan@7139992f]" started-at="2023-08-10T14:40:57 IST" name="testloan1" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan1 -->
+        <test-method signature="testloan2(java.lang.String)[pri:0, instance:testNG.PersonalLoan@7139992f]" started-at="2023-08-10T14:40:57 IST" name="testloan2" finished-at="2023-08-10T14:40:57 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//https:goggle.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan2 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@7139992f]" started-at="2023-08-10T14:40:57 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@7139992f]" started-at="2023-08-10T14:40:57 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:57 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+      </class> <!-- testNG.PersonalLoan -->
+    </test> <!-- chrome -->
+    <test started-at="2023-08-10T14:40:58 IST" name="InternetEx" finished-at="2023-08-10T14:40:59 IST" duration-ms="1036">
+      <class name="testNG.DemoTestng">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeTest" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test1" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:2, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test2" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test3()[pri:3, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test3" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test4" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test5" finished-at="2023-08-10T14:40:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test5" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test5" finished-at="2023-08-10T14:40:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test5" finished-at="2023-08-10T14:40:58 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="beforeMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="test5" finished-at="2023-08-10T14:40:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@7eecb5b8]" started-at="2023-08-10T14:40:58 IST" name="afterMethod" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.DemoTestng -->
+      <class name="testNG.CarLoan">
+        <test-method signature="JCBTest2()[pri:0, instance:testNG.CarLoan@57db2b13]" started-at="2023-08-10T14:40:58 IST" name="JCBTest2" finished-at="2023-08-10T14:40:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JCBTest2 -->
+        <test-method signature="carTest1()[pri:0, instance:testNG.CarLoan@57db2b13]" started-at="2023-08-10T14:40:58 IST" name="carTest1" finished-at="2023-08-10T14:40:59 IST" duration-ms="1008" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:360)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTest1 -->
+        <test-method signature="homeTest3()[pri:0, instance:testNG.CarLoan@57db2b13]" started-at="2023-08-10T14:40:59 IST" name="homeTest3" finished-at="2023-08-10T14:40:59 IST" depends-on-methods="testNG.CarLoan.carTest1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@57db2b13 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@57db2b13]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@57db2b13 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@57db2b13]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest3 -->
+      </class> <!-- testNG.CarLoan -->
+      <class name="testNG.PersonalLoan">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.PersonalLoan@126253fd]" started-at="2023-08-10T14:40:58 IST" name="browserLaunch" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testloan1()[pri:0, instance:testNG.PersonalLoan@126253fd]" started-at="2023-08-10T14:40:58 IST" name="testloan1" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan1 -->
+        <test-method signature="testloan2(java.lang.String)[pri:0, instance:testNG.PersonalLoan@126253fd]" started-at="2023-08-10T14:40:58 IST" name="testloan2" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//https:goggle.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan2 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@126253fd]" started-at="2023-08-10T14:40:58 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@126253fd]" started-at="2023-08-10T14:40:58 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+      </class> <!-- testNG.PersonalLoan -->
+    </test> <!-- InternetEx -->
+    <test started-at="2023-08-10T14:40:59 IST" name="Firefox" finished-at="2023-08-10T14:41:00 IST" duration-ms="1034">
+      <class name="testNG.DemoTestng">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:57 IST" name="beforeSuite" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeTest" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test1" finished-at="2023-08-10T14:40:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:2, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test2" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test3()[pri:3, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test3" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test4" finished-at="2023-08-10T14:40:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test5" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test5" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test5" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test5" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="beforeMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="test5" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@5276d6ee]" started-at="2023-08-10T14:40:59 IST" name="afterMethod" finished-at="2023-08-10T14:40:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.DemoTestng -->
+      <class name="testNG.CarLoan">
+        <test-method signature="JCBTest2()[pri:0, instance:testNG.CarLoan@1807f5a7]" started-at="2023-08-10T14:40:59 IST" name="JCBTest2" finished-at="2023-08-10T14:40:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JCBTest2 -->
+        <test-method signature="carTest1()[pri:0, instance:testNG.CarLoan@1807f5a7]" started-at="2023-08-10T14:40:59 IST" name="carTest1" finished-at="2023-08-10T14:41:00 IST" duration-ms="1018" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:360)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:301)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTest1 -->
+        <test-method signature="homeTest3()[pri:0, instance:testNG.CarLoan@1807f5a7]" started-at="2023-08-10T14:41:00 IST" name="homeTest3" finished-at="2023-08-10T14:41:00 IST" depends-on-methods="testNG.CarLoan.carTest1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@1807f5a7 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@1807f5a7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@1807f5a7 depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@1807f5a7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest3 -->
+      </class> <!-- testNG.CarLoan -->
+      <class name="testNG.PersonalLoan">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.PersonalLoan@71687585]" started-at="2023-08-10T14:40:59 IST" name="browserLaunch" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testloan1()[pri:0, instance:testNG.PersonalLoan@71687585]" started-at="2023-08-10T14:40:59 IST" name="testloan1" finished-at="2023-08-10T14:40:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan1 -->
+        <test-method signature="testloan2(java.lang.String)[pri:0, instance:testNG.PersonalLoan@71687585]" started-at="2023-08-10T14:40:59 IST" name="testloan2" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//https:goggle.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan2 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@71687585]" started-at="2023-08-10T14:40:59 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@71687585]" started-at="2023-08-10T14:40:59 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:59 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+      </class> <!-- testNG.PersonalLoan -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Home Loan -->
+  <suite started-at="2023-08-10T14:40:56 IST" name="Personal Loan" finished-at="2023-08-10T14:40:57 IST" duration-ms="1375">
+    <groups>
+      <group name="Sanity">
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@6b695b06]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test2()[pri:2, instance:testNG.DemoTestng@6b695b06]" name="test2" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test3()[pri:3, instance:testNG.DemoTestng@6b695b06]" name="test3" class="testNG.DemoTestng"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="DemoTestng.test1()[pri:1, instance:testNG.DemoTestng@6b695b06]" name="test1" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test4()[pri:4, instance:testNG.DemoTestng@6b695b06]" name="test4" class="testNG.DemoTestng"/>
+        <method signature="DemoTestng.test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" name="test5" class="testNG.DemoTestng"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PersonalLoan.testloan1()[pri:0, instance:testNG.PersonalLoan@5965d37]" name="testloan1" class="testNG.PersonalLoan"/>
+        <method signature="CarLoan.homeTest3()[pri:0, instance:testNG.CarLoan@821330f]" name="homeTest3" class="testNG.CarLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-10T14:40:56 IST" name="Personal Loan" finished-at="2023-08-10T14:40:56 IST" duration-ms="251">
+      <class name="testNG.DemoTestng">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeTest" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test1" finished-at="2023-08-10T14:40:56 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:2, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test2" finished-at="2023-08-10T14:40:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:3, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test3" finished-at="2023-08-10T14:40:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test4()[pri:4, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test4" finished-at="2023-08-10T14:40:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test5" finished-at="2023-08-10T14:40:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test5" finished-at="2023-08-10T14:40:56 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test5" finished-at="2023-08-10T14:40:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test5" finished-at="2023-08-10T14:40:56 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="beforeMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:5, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="test5" finished-at="2023-08-10T14:40:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:56 IST" name="afterMethod" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.DemoTestng -->
+      <class name="testNG.PersonalLoan">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.PersonalLoan@5965d37]" started-at="2023-08-10T14:40:56 IST" name="browserLaunch" finished-at="2023-08-10T14:40:56 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\Selenium_basic_project_1\xmlFiles\Regression.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\Selenium_basic_project_1\xmlFiles\Regression.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="testloan1()[pri:0, instance:testNG.PersonalLoan@5965d37]" started-at="2023-08-10T14:40:56 IST" name="testloan1" finished-at="2023-08-10T14:40:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan1 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@5965d37]" started-at="2023-08-10T14:40:56 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+        <test-method signature="testloan3(java.lang.String,java.lang.String)[pri:0, instance:testNG.PersonalLoan@5965d37]" started-at="2023-08-10T14:40:56 IST" name="testloan3" data-provider="getData" finished-at="2023-08-10T14:40:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloan3 -->
+      </class> <!-- testNG.PersonalLoan -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-08-10T14:40:56 IST" name="Car Loan" finished-at="2023-08-10T14:40:57 IST" duration-ms="1031">
+      <class name="testNG.DemoTestng">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.DemoTestng@6b695b06]" started-at="2023-08-10T14:40:55 IST" name="beforeSuite" finished-at="2023-08-10T14:40:56 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- testNG.DemoTestng -->
+      <class name="testNG.CarLoan">
+        <test-method signature="carTest1()[pri:0, instance:testNG.CarLoan@821330f]" started-at="2023-08-10T14:40:56 IST" name="carTest1" finished-at="2023-08-10T14:40:57 IST" duration-ms="1014" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNG.CarLoan.carTest1() didn't finish within the time-out 1000
+at java.base@17.0.7/java.lang.Thread.sleep(Native Method)
+at app//testNG.CarLoan.carTest1(CarLoan.java:12)
+at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.7/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@17.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carTest1 -->
+        <test-method signature="JCBTest2()[pri:0, instance:testNG.CarLoan@821330f]" started-at="2023-08-10T14:40:57 IST" name="JCBTest2" finished-at="2023-08-10T14:40:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JCBTest2 -->
+        <test-method signature="homeTest3()[pri:0, instance:testNG.CarLoan@821330f]" started-at="2023-08-10T14:40:57 IST" name="homeTest3" finished-at="2023-08-10T14:40:57 IST" depends-on-methods="testNG.CarLoan.carTest1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@821330f depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@821330f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNG.CarLoan.homeTest3() on instance testNG.CarLoan@821330f depends on not successfully finished methods 
+[testNG.CarLoan.carTest1() on instance testNG.CarLoan@821330f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1275)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest3 -->
+      </class> <!-- testNG.CarLoan -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Personal Loan -->
+</testng-results>
