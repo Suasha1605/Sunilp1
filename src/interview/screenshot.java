@@ -23,6 +23,7 @@ public class screenshot {
 		
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		
+		System.out.println("First code update from local to git branch");
 		
 		File file= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
